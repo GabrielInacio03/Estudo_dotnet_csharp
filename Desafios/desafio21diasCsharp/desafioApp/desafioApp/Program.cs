@@ -13,6 +13,17 @@ public class Program
 			o valor de x é: {x}
 			""";
 
+		// Uso de $$ para interpretar a formatação do json
+		string templatejson =
+			$$"""
+				{
+					"employees":[
+						{"firstName": "John", "lastName": "Doe - {{x}}"},
+						{"firstName": "Anna", "lastName": "Smith - {{x}}"},
+						{"firstName": "Peter", "lastName": "Jones - {{x}}"}
+					]
+				}
+			""";
 		Console.WriteLine(templatestring);
 	}
 	
