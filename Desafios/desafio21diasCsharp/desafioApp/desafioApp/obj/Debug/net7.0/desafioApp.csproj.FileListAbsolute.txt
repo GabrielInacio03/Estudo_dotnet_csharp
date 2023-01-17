@@ -1,0 +1,15 @@
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\bin\Debug\net7.0\desafioApp.exe
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\bin\Debug\net7.0\desafioApp.deps.json
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\bin\Debug\net7.0\desafioApp.runtimeconfig.json
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\bin\Debug\net7.0\desafioApp.dll
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\bin\Debug\net7.0\desafioApp.pdb
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\obj\Debug\net7.0\desafioApp.csproj.AssemblyReference.cache
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\obj\Debug\net7.0\desafioApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\obj\Debug\net7.0\desafioApp.AssemblyInfoInputs.cache
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\obj\Debug\net7.0\desafioApp.AssemblyInfo.cs
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\obj\Debug\net7.0\desafioApp.csproj.CoreCompileInputs.cache
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\obj\Debug\net7.0\desafioApp.dll
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\obj\Debug\net7.0\refint\desafioApp.dll
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\obj\Debug\net7.0\desafioApp.pdb
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\obj\Debug\net7.0\desafioApp.genruntimeconfig.cache
+C:\workspace\estudos-dotnet\Desafios\desafio21diasCsharp\desafioApp\desafioApp\obj\Debug\net7.0\ref\desafioApp.dll
