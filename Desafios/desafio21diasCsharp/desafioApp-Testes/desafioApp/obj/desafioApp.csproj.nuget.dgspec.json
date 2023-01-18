@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\workspace\\estudos-dotnet\\Desafios\\desafio21diasCsharp\\desafioApp\\desafioApp\\desafioApp.csproj": {}
+    "C:\\workspace\\estudos-dotnet\\Desafios\\desafio21diasCsharp\\desafioApp-Testes\\desafioApp\\desafioApp.csproj": {}
   },
   "projects": {
-    "C:\\workspace\\estudos-dotnet\\Desafios\\desafio21diasCsharp\\desafioApp\\desafioApp\\desafioApp.csproj": {
+    "C:\\workspace\\estudos-dotnet\\Desafios\\desafio21diasCsharp\\desafioApp-Testes\\desafioApp\\desafioApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\workspace\\estudos-dotnet\\Desafios\\desafio21diasCsharp\\desafioApp\\desafioApp\\desafioApp.csproj",
+        "projectUniqueName": "C:\\workspace\\estudos-dotnet\\Desafios\\desafio21diasCsharp\\desafioApp-Testes\\desafioApp\\desafioApp.csproj",
         "projectName": "desafioApp",
-        "projectPath": "C:\\workspace\\estudos-dotnet\\Desafios\\desafio21diasCsharp\\desafioApp\\desafioApp\\desafioApp.csproj",
+        "projectPath": "C:\\workspace\\estudos-dotnet\\Desafios\\desafio21diasCsharp\\desafioApp-Testes\\desafioApp\\desafioApp.csproj",
         "packagesPath": "C:\\Users\\Inaci\\.nuget\\packages\\",
-        "outputPath": "C:\\workspace\\estudos-dotnet\\Desafios\\desafio21diasCsharp\\desafioApp\\desafioApp\\obj\\",
+        "outputPath": "C:\\workspace\\estudos-dotnet\\Desafios\\desafio21diasCsharp\\desafioApp-Testes\\desafioApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fQQknURklqL2tG2F/ECd02sTBd/DlJbRy/2FyUFgsndPjvMCiuQWbLU2QDnoPqBHAbDkG7TjDtRzcpABBfX+jw==",
+  "dgSpecHash": "HqPIDYo2++njC94Eveyg0qf3vo3Y1lvZ2AvRjAR17QI/fIQEgLCbEAXC4zVGSYZwORYr08SnJpMNt7Kfd3diDA==",
   "success": true,
-  "projectFilePath": "C:\\workspace\\estudos-dotnet\\Desafios\\desafio21diasCsharp\\desafioApp\\desafioApp\\desafioApp.csproj",
+  "projectFilePath": "C:\\workspace\\estudos-dotnet\\Desafios\\desafio21diasCsharp\\desafioApp-Testes\\desafioApp\\desafioApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

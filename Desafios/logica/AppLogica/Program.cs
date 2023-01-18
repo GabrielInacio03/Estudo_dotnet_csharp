@@ -6,9 +6,14 @@ namespace AppLogica // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Desenvolvendo o raciocínio lógico com dotnet7 em aplicação console");
-            Console.WriteLine("===========================================================================");
-            Console.WriteLine("");
+            Console.WriteLine("==========================================");
+            Console.WriteLine("=== Bem vindo ao meu primeiro sistema ===");
+            Console.WriteLine("==========================================");
+
+            var ex01 = new Exercicio01();
+            ex01.Inicio();
+            
+            Console.WriteLine("========== [Finalizando Sistema] ==========");
         }
     }
 }
