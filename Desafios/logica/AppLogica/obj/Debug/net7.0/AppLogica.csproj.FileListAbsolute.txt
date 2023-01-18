@@ -1,0 +1,15 @@
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\bin\Debug\net7.0\AppLogica.exe
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\bin\Debug\net7.0\AppLogica.deps.json
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\bin\Debug\net7.0\AppLogica.runtimeconfig.json
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\bin\Debug\net7.0\AppLogica.dll
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\bin\Debug\net7.0\AppLogica.pdb
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\obj\Debug\net7.0\AppLogica.csproj.AssemblyReference.cache
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\obj\Debug\net7.0\AppLogica.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\obj\Debug\net7.0\AppLogica.AssemblyInfoInputs.cache
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\obj\Debug\net7.0\AppLogica.AssemblyInfo.cs
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\obj\Debug\net7.0\AppLogica.csproj.CoreCompileInputs.cache
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\obj\Debug\net7.0\AppLogica.dll
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\obj\Debug\net7.0\refint\AppLogica.dll
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\obj\Debug\net7.0\AppLogica.pdb
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\obj\Debug\net7.0\AppLogica.genruntimeconfig.cache
+C:\workspace\estudos-dotnet\Desafios\logica\AppLogica\obj\Debug\net7.0\ref\AppLogica.dll
