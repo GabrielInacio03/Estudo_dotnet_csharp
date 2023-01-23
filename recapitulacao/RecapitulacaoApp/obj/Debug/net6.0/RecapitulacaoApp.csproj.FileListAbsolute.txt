@@ -1,0 +1,15 @@
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\bin\Debug\net6.0\RecapitulacaoApp.exe
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\bin\Debug\net6.0\RecapitulacaoApp.deps.json
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\bin\Debug\net6.0\RecapitulacaoApp.runtimeconfig.json
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\bin\Debug\net6.0\RecapitulacaoApp.dll
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\bin\Debug\net6.0\RecapitulacaoApp.pdb
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\obj\Debug\net6.0\RecapitulacaoApp.csproj.AssemblyReference.cache
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\obj\Debug\net6.0\RecapitulacaoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\obj\Debug\net6.0\RecapitulacaoApp.AssemblyInfoInputs.cache
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\obj\Debug\net6.0\RecapitulacaoApp.AssemblyInfo.cs
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\obj\Debug\net6.0\RecapitulacaoApp.csproj.CoreCompileInputs.cache
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\obj\Debug\net6.0\RecapitulacaoApp.dll
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\obj\Debug\net6.0\refint\RecapitulacaoApp.dll
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\obj\Debug\net6.0\RecapitulacaoApp.pdb
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\obj\Debug\net6.0\RecapitulacaoApp.genruntimeconfig.cache
+C:\workspace\estudos-dotnet\recapitulacao\RecapitulacaoApp\obj\Debug\net6.0\ref\RecapitulacaoApp.dll
