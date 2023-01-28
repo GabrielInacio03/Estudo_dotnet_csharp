@@ -39,6 +39,20 @@ namespace RecapitulacaoApp
             Console.WriteLine(c3);
             Console.WriteLine(c4);
 
+            Console.WriteLine("------------------");
+            var data = DateTime.Now;
+
+            Console.WriteLine("Data Atual: "+ data);
+            if(data.Hour < 12)
+            {
+                Console.WriteLine("Bom dia");
+            } else if(data.Hour >= 12 && data.Hour < 18)
+            {
+                Console.WriteLine("Boa Tarde");
+            } else
+            {
+                Console.WriteLine("Boa Noite");
+            }                        
         }
     }
 }
