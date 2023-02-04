@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\workspace\\estudos-dotnet\\recapitulacao\\RecapitulacaoApp\\RecapitulacaoApp.csproj",
+      "projectUniqueName": "C:\\workspace\\Estudo_dotnet_csharp\\recapitulacao\\RecapitulacaoApp\\RecapitulacaoApp.csproj",
       "projectName": "RecapitulacaoApp",
-      "projectPath": "C:\\workspace\\estudos-dotnet\\recapitulacao\\RecapitulacaoApp\\RecapitulacaoApp.csproj",
+      "projectPath": "C:\\workspace\\Estudo_dotnet_csharp\\recapitulacao\\RecapitulacaoApp\\RecapitulacaoApp.csproj",
       "packagesPath": "C:\\Users\\Inaci\\.nuget\\packages\\",
-      "outputPath": "C:\\workspace\\estudos-dotnet\\recapitulacao\\RecapitulacaoApp\\obj\\",
+      "outputPath": "C:\\workspace\\Estudo_dotnet_csharp\\recapitulacao\\RecapitulacaoApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
