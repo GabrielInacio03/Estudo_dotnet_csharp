@@ -54,22 +54,37 @@ namespace RecapitulacaoApp
             //    Console.WriteLine("Boa Noite");
             //}              
 
-            Console.WriteLine("------------------");
+            //Console.WriteLine("------------------");
 
             //funções exemplos
 
-            Console.WriteLine("Digite três número:");
-            string resposta = Console.ReadLine();
+            //Console.WriteLine("Digite três número:");
+            //string resposta = Console.ReadLine();
 
-            string[] vetor = resposta.Split(" ");
-            int n1 = int.Parse(vetor[0]);
-			int n2 = int.Parse(vetor[1]);
-			int n3 = int.Parse(vetor[2]);
+            //string[] vetor = resposta.Split(" ");
+            //int n1 = int.Parse(vetor[0]);
+			//int n2 = int.Parse(vetor[1]);
+			//int n3 = int.Parse(vetor[2]);
 
-            double resultado = Maior(n1, n2, n3);
+            //double resultado = Maior(n1, n2, n3);
 
-            Console.WriteLine("Maior valor -> " + resultado);
-		}
+            //Console.WriteLine("Maior valor -> " + resultado);
+		
+            Console.WriteLine("------------------------");
+            var valor = 0;
+
+            while (valor >= 0)
+            {
+                System.Console.WriteLine("Digite um Número");
+                valor = int.Parse(Console.ReadLine());
+
+                System.Console.WriteLine(valor);
+            }
+
+            System.Console.WriteLine("valor negativo "+ valor);
+
+        
+        }
         public static double Maior(int n1, int n2, int n3)
         {
             double resultado = 0;
