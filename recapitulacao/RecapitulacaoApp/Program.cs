@@ -71,17 +71,17 @@ namespace RecapitulacaoApp
             //Console.WriteLine("Maior valor -> " + resultado);
 		
             Console.WriteLine("------------------------");
-            var valor = 0;
+            var raiz = 0;
 
-            while (valor >= 0)
+            while (raiz >= 0)
             {
                 System.Console.WriteLine("Digite um Número");
-                valor = int.Parse(Console.ReadLine());
-
+                var valor = double.Parse(Console.ReadLine());
+                raiz = Math.Sqrt(valor);
                 System.Console.WriteLine(valor);
             }
 
-            System.Console.WriteLine("valor negativo "+ valor);
+            System.Console.WriteLine("valor negativo "+ raiz);
 
         
         }
