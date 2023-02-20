@@ -83,6 +83,12 @@ namespace RecapitulacaoApp
 
             System.Console.WriteLine("valor negativo "+ raiz);
 
+
+            int tabuada = 5;
+            for(int i = 0; i <= 10; i++)
+			{
+				Console.WriteLine(tabuada + "X"+ i + "= "+ (tabuada*i));
+			}
         
         }
         public static double Maior(int n1, int n2, int n3)
