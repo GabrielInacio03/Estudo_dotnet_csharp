@@ -8,37 +8,21 @@ namespace Secao04_ClassesAtributosMetodosMembrosEstaticos // Note: actual namesp
     {
         static void Main(string[] args)
         {
-            //Iniciando POO
-            Triangulo x, y;
-            x = new Triangulo();
-            y = new Triangulo();
-            
-            Console.WriteLine("Entre com as medidas do triângulo X: ");
-            x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Funcionario f1, f2;
+            f1 = new Funcionario();
+            f2 = new Funcionario();
 
-            Console.WriteLine("Entre com as medidas do triângulo Y: ");
-            y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine("Dados da primeira funcionário: ");
+            f1.Nome = Console.ReadLine();
+            f1.Salario = double.Parse(Console.ReadLine());
 
-            double p = (x.A + x.B + x.C) / 2.0;
-            double areaX = Math.Sqrt(p * (p - x.A) * (p - x.B) * (p - x.C));
+            Console.WriteLine("Dados da segunda funcionário: ");
+            f2.Nome = Console.ReadLine();
+            f2.Salario = double.Parse(Console.ReadLine());
 
-            p = (y.A + y.B + y.C) / 2.0;
-            double areaY = Math.Sqrt(p * (p - y.A) * (p - y.B) * (p - y.C));
+            double salMedio = (f1.Salario + f2.Salario) / 2.00;
 
-            Console.WriteLine("Área de x = "+ areaX.ToString("F4", CultureInfo.InvariantCulture));
-            Console.WriteLine("Área de y = "+ areaY.ToString("F4", CultureInfo.InvariantCulture));
-
-            if( areaX > areaY){
-                Console.WriteLine("Área X é a maior");
-            } else if( areaX < areaY){
-                Console.WriteLine("Área Y é a maior");
-            } else{
-                Console.WriteLine("Áreas com tamanhos iguais");
-            }
+            Console.WriteLine("Salário médio = "+ salMedio);
         }
     }
 }
