@@ -8,21 +8,31 @@ namespace Secao04_ClassesAtributosMetodosMembrosEstaticos // Note: actual namesp
     {
         static void Main(string[] args)
         {
-            Funcionario f1, f2;
-            f1 = new Funcionario();
-            f2 = new Funcionario();
+            //Iniciando POO
+            Triangulo x, y;
+            x = new Triangulo();
+            y = new Triangulo();
+            
+            Console.WriteLine("Entre com as medidas do triângulo X: ");
+            x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.WriteLine("Dados da primeira funcionário: ");
-            f1.Nome = Console.ReadLine();
-            f1.Salario = double.Parse(Console.ReadLine());
+            Console.WriteLine("Entre com as medidas do triângulo Y: ");
+            y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-            Console.WriteLine("Dados da segunda funcionário: ");
-            f2.Nome = Console.ReadLine();
-            f2.Salario = double.Parse(Console.ReadLine());
+            Console.WriteLine("Área de x = "+ x.Area().ToString("F4", CultureInfo.InvariantCulture));
+            Console.WriteLine("Área de y = "+ y.Area().ToString("F4", CultureInfo.InvariantCulture));
 
-            double salMedio = (f1.Salario + f2.Salario) / 2.00;
-
-            Console.WriteLine("Salário médio = "+ salMedio);
+            if( areaX > areaY){
+                Console.WriteLine("Área X é a maior");
+            } else if( areaX < areaY){
+                Console.WriteLine("Área Y é a maior");
+            } else{
+                Console.WriteLine("Áreas com tamanhos iguais");
+            }
         }
     }
 }
