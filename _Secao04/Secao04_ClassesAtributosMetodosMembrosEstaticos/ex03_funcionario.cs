@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-
+/*
 using System;
 using System.Globalization;
 namespace Secao04_ClassesAtributosMetodosMembrosEstaticos // Note: actual namespace depends on the project name.
@@ -26,3 +26,4 @@ namespace Secao04_ClassesAtributosMetodosMembrosEstaticos // Note: actual namesp
         }
     }
 }
+*/

@@ -16,7 +16,7 @@ namespace Secao04_ClassesAtributosMetodosMembrosEstaticos
             double p = (A + B + C) / 2.0;
             double area = Math.Sqrt(p * (p - A) * (p - B) * (p - C));
 
-            return areaX;
+            return area;
         }
     }
 }

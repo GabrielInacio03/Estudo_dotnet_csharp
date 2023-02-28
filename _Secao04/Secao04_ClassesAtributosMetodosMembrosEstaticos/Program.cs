@@ -8,31 +8,28 @@ namespace Secao04_ClassesAtributosMetodosMembrosEstaticos // Note: actual namesp
     {
         static void Main(string[] args)
         {
-            //Iniciando POO
-            Triangulo x, y;
-            x = new Triangulo();
-            y = new Triangulo();
+            Produto p;
+            p = new Produto();
             
-            Console.WriteLine("Entre com as medidas do triângulo X: ");
-            x.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            x.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            x.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            p.Nome = "TV";
+            p.Preco = 900.00;
+            p.Quantidade = 10;
 
-            Console.WriteLine("Entre com as medidas do triângulo Y: ");
-            y.A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            y.B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
-            y.C = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine("Dados do produto: {0}, $ {1}, {2} unidades, Total: $ {3}", p.Nome, p.Preco, p.Quantidade, p.ValorTotalEmEstoque());
 
-            Console.WriteLine("Área de x = "+ x.Area().ToString("F4", CultureInfo.InvariantCulture));
-            Console.WriteLine("Área de y = "+ y.Area().ToString("F4", CultureInfo.InvariantCulture));
+            Console.WriteLine("Digite u número de produtos a ser adicionado ao estoque: ");
+            int qtd = int.Parse(Console.ReadLine());
 
-            if( areaX > areaY){
-                Console.WriteLine("Área X é a maior");
-            } else if( areaX < areaY){
-                Console.WriteLine("Área Y é a maior");
-            } else{
-                Console.WriteLine("Áreas com tamanhos iguais");
-            }
+            p.AdicionarProdutos(qtd);
+
+            Console.WriteLine("Dados do produto: {0}, $ {1}, {2} unidades, Total: $ {3}", p.Nome, p.Preco, p.Quantidade, p.ValorTotalEmEstoque());
+
+            Console.WriteLine("Digite o número de produtos a ser removido do estoque: ");
+            int qtd_retirar = int.Parse(Console.ReadLine());
+
+            p.RemoverProdutos(qtd_retirar);
+            
+            Console.WriteLine("Dados do produto: {0}, $ {1}, {2} unidades, Total: $ {3}", p.Nome, p.Preco, p.Quantidade, p.ValorTotalEmEstoque());
         }
     }
 }
