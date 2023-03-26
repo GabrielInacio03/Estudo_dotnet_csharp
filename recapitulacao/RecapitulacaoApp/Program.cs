@@ -71,7 +71,7 @@ namespace RecapitulacaoApp
             //Console.WriteLine("Maior valor -> " + resultado);
 		
             Console.WriteLine("------------------------");
-            var raiz = 0;
+            var raiz = 0.00;
 
             while (raiz >= 0)
             {
