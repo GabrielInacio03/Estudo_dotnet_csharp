@@ -28,6 +28,7 @@ namespace Secao04_ClassesAtributosMetodosMembrosEstaticos
 
 		//sobreposição
         //Quando chamar o objeto dentro do writeline ele, implicitamente, vai chamar o método toString
+        //ou seja, o override indica que essa operação esta vindo de outra classe, nesse caso da classe Object
 		public override string ToString()
 		{
 			//Console.WriteLine("Dados do produto: {0}, $ {1}, {2} unidades, Total: $ {3}", p.Nome, p.Preco, p.Quantidade, p.ValorTotalEmEstoque());
