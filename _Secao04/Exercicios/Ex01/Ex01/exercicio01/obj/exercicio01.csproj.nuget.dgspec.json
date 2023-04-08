@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\workspace\\Estudo_dotnet_csharp\\_Secao04\\Secao04_ClassesAtributosMetodosMembrosEstaticos\\Secao04_ClassesAtributosMetodosMembrosEstaticos.csproj": {}
+    "C:\\workspace\\Estudo_dotnet_csharp\\_Secao04\\Exercicios\\Ex01\\Ex01\\exercicio01\\exercicio01.csproj": {}
   },
   "projects": {
-    "c:\\workspace\\Estudo_dotnet_csharp\\_Secao04\\Secao04_ClassesAtributosMetodosMembrosEstaticos\\Secao04_ClassesAtributosMetodosMembrosEstaticos.csproj": {
+    "C:\\workspace\\Estudo_dotnet_csharp\\_Secao04\\Exercicios\\Ex01\\Ex01\\exercicio01\\exercicio01.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\workspace\\Estudo_dotnet_csharp\\_Secao04\\Secao04_ClassesAtributosMetodosMembrosEstaticos\\Secao04_ClassesAtributosMetodosMembrosEstaticos.csproj",
-        "projectName": "Secao04_ClassesAtributosMetodosMembrosEstaticos",
-        "projectPath": "c:\\workspace\\Estudo_dotnet_csharp\\_Secao04\\Secao04_ClassesAtributosMetodosMembrosEstaticos\\Secao04_ClassesAtributosMetodosMembrosEstaticos.csproj",
+        "projectUniqueName": "C:\\workspace\\Estudo_dotnet_csharp\\_Secao04\\Exercicios\\Ex01\\Ex01\\exercicio01\\exercicio01.csproj",
+        "projectName": "exercicio01",
+        "projectPath": "C:\\workspace\\Estudo_dotnet_csharp\\_Secao04\\Exercicios\\Ex01\\Ex01\\exercicio01\\exercicio01.csproj",
         "packagesPath": "C:\\Users\\Inaci\\.nuget\\packages\\",
-        "outputPath": "c:\\workspace\\Estudo_dotnet_csharp\\_Secao04\\Secao04_ClassesAtributosMetodosMembrosEstaticos\\obj\\",
+        "outputPath": "C:\\workspace\\Estudo_dotnet_csharp\\_Secao04\\Exercicios\\Ex01\\Ex01\\exercicio01\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "imports": [
             "net461",
             "net462",

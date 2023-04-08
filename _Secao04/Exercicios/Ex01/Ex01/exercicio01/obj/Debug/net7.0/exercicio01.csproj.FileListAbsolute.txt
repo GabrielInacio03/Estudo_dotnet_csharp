@@ -1,0 +1,15 @@
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\obj\Debug\net7.0\exercicio01.csproj.AssemblyReference.cache
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\obj\Debug\net7.0\exercicio01.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\obj\Debug\net7.0\exercicio01.AssemblyInfoInputs.cache
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\obj\Debug\net7.0\exercicio01.AssemblyInfo.cs
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\obj\Debug\net7.0\exercicio01.csproj.CoreCompileInputs.cache
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\bin\Debug\net7.0\exercicio01.exe
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\bin\Debug\net7.0\exercicio01.deps.json
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\bin\Debug\net7.0\exercicio01.runtimeconfig.json
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\bin\Debug\net7.0\exercicio01.dll
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\bin\Debug\net7.0\exercicio01.pdb
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\obj\Debug\net7.0\exercicio01.dll
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\obj\Debug\net7.0\refint\exercicio01.dll
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\obj\Debug\net7.0\exercicio01.pdb
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\obj\Debug\net7.0\exercicio01.genruntimeconfig.cache
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex01\Ex01\exercicio01\obj\Debug\net7.0\ref\exercicio01.dll
