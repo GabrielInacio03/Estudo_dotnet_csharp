@@ -21,7 +21,7 @@ namespace exercicio01 // Note: actual namespace depends on the project name.
             Console.WriteLine("PERÍMETRO = "+ r.Perimetro());
             Console.WriteLine("DIAGONAL = "+ r.Diagonal());
 
-
+            
         }
     }
 }
