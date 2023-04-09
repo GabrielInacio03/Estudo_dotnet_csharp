@@ -1,0 +1,15 @@
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\bin\Debug\net7.0\exercicio03.exe
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\bin\Debug\net7.0\exercicio03.deps.json
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\bin\Debug\net7.0\exercicio03.runtimeconfig.json
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\bin\Debug\net7.0\exercicio03.dll
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\bin\Debug\net7.0\exercicio03.pdb
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\obj\Debug\net7.0\exercicio03.csproj.AssemblyReference.cache
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\obj\Debug\net7.0\exercicio03.GeneratedMSBuildEditorConfig.editorconfig
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\obj\Debug\net7.0\exercicio03.AssemblyInfoInputs.cache
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\obj\Debug\net7.0\exercicio03.AssemblyInfo.cs
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\obj\Debug\net7.0\exercicio03.csproj.CoreCompileInputs.cache
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\obj\Debug\net7.0\exercicio03.dll
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\obj\Debug\net7.0\refint\exercicio03.dll
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\obj\Debug\net7.0\exercicio03.pdb
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\obj\Debug\net7.0\exercicio03.genruntimeconfig.cache
+C:\workspace\Estudo_dotnet_csharp\_Secao04\Exercicios\Ex03\exercicio03\obj\Debug\net7.0\ref\exercicio03.dll
