@@ -1,5 +1,6 @@
 ﻿using Secao05_ConstrutoresThisSobrecargaEncapsulamento;
 using System;
+using System.Globalization;
 
 namespace Secao05 // Note: actual namespace depends on the project name.
 {
@@ -12,36 +13,35 @@ namespace Secao05 // Note: actual namespace depends on the project name.
 			Console.WriteLine("==============================");
 
 			Produto p;
-			p = new Produto();
+			
 
-			p.Nome = "TV";
-			p.Preco = 900.00;
-			p.Quantidade = 10;
+            Console.WriteLine("Entrando com os dados do produto:");
+            Console.WriteLine("Digite o nome do produto");
+            string nome = Console.ReadLine();
 
-			//Console.WriteLine("Digite o nome do produto");
-			//p.Nome = Console.ReadLine();
+            Console.WriteLine("Digite o preço");
+            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-			//Console.WriteLine("Digite o preço");
-			//p.Preco = double.Parse(Console.ReadLine());
+            Console.WriteLine("Digite a quantidade em estoque");
+            int quantidade = int.Parse(Console.ReadLine());
 
-			//Console.WriteLine("Digite a quantidade em estoque");
-			//p.Quantidade = int.Parse(Console.ReadLine());
-
-			Console.WriteLine("Dados do produto: " + p);
-
-			Console.WriteLine("Digite u número de produtos a ser adicionado ao estoque: ");
-			int qtd = int.Parse(Console.ReadLine());
-
-			p.AdicionarProdutos(qtd);
+			p = new Produto(nome, preco, quantidade);
 
 			Console.WriteLine("Dados do produto: " + p);
 
-			Console.WriteLine("Digite o número de produtos a ser removido do estoque: ");
-			int qtd_retirar = int.Parse(Console.ReadLine());
+            Console.WriteLine("Digite u número de produtos a ser adicionado ao estoque: ");
+            int qtd = int.Parse(Console.ReadLine());
 
-			p.RemoverProdutos(qtd_retirar);
+            p.AdicionarProdutos(qtd);
 
-			Console.WriteLine("Dados do produto: " + p);
-		}
+            Console.WriteLine("Dados do produto: " + p);
+
+            Console.WriteLine("Digite o número de produtos a ser removido do estoque: ");
+            int qtd_retirar = int.Parse(Console.ReadLine());
+
+            p.RemoverProdutos(qtd_retirar);
+
+            Console.WriteLine("Dados do produto: " + p);
+        }
 	}
 }
