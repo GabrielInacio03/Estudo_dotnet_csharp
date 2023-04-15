@@ -9,16 +9,17 @@ namespace Secao05_ConstrutoresThisSobrecargaEncapsulamento
 {
 	public class Produto
 	{
+		//this é uma referência
 		public string Nome;
 		public double Preco;
 		public int Quantidade;
 
 		public Produto() { }
-		public Produto(string nome, double preco, int quantidade)
+		public Produto(string nome, double preco, int quantidade) : this() //referenciar outro construtor em um construtor
 		{
-			Nome = nome;
-			Preco = preco;
-			Quantidade = quantidade;
+			this.Nome = nome; //this para diferenciar atributos das variáveis
+			this.Preco = preco;
+			this.Quantidade = quantidade;
 		}
 		public Produto(string nome, double preco)
 		{
