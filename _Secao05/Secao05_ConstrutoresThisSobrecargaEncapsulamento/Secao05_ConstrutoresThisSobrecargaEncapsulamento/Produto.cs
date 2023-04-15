@@ -9,40 +9,50 @@ namespace Secao05_ConstrutoresThisSobrecargaEncapsulamento
 {
 	public class Produto
 	{
+		//Ecapsulamento
+		/*
+			É um princípio que consiste em esconder detalhes
+		    de implementação de um componente(objeto), expondo
+		    apenas operações seguras e que o mantenha em um estado
+		    consistente.
+			O objeto deve sempre estar em um estado consistente,
+		    e a própria classe deve garantir isso.
+		 */
+
 		//this é uma referência
-		public string Nome;
-		public double Preco;
-		public int Quantidade;
+		private string _nome;
+		private double _preco;
+		private int _quantidade;
 
 		public Produto() { }
 		public Produto(string nome, double preco, int quantidade) : this() //referenciar outro construtor em um construtor
 		{
-			this.Nome = nome; //this para diferenciar atributos das variáveis
-			this.Preco = preco;
-			this.Quantidade = quantidade;
+			this._nome = nome; //this para diferenciar atributos das variáveis
+			this._preco = preco;
+			this._quantidade = quantidade;
 		}
 		public Produto(string nome, double preco)
 		{
-			Nome = nome;
-			Preco = preco;
-			Quantidade = 0;
+			_nome = nome;
+			_preco = preco;
+			_quantidade = 0;
 		}
 
 		public double ValorTotalEmEstoque()
 		{
-			return Preco * Quantidade;
+			return _preco * _quantidade;
 		}
 		public void AdicionarProdutos(int quantidade)
 		{
-			Quantidade +=  quantidade;
+			_quantidade +=  quantidade;
 		}
 		public void RemoverProdutos(int quantidade)
 		{
-			Quantidade -= quantidade;
+			_quantidade -= quantidade;
 		}
 		public override string ToString()
 		{
-			return Nome + ", $ "+ Preco.ToString("F2", CultureInfo.InvariantCulture) + ", "+ Quantidade + ", unidades, Total: $"+ ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
+			return _nome + ", $ "+ _preco.ToString("F2", CultureInfo.InvariantCulture) + ", "+ _quantidade + ", unidades, Total: $"+ ValorTotalEmEstoque().ToString("F2", CultureInfo.InvariantCulture);
 		}
 	}
 }
