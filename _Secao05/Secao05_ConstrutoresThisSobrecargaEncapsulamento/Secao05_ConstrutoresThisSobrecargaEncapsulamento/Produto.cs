@@ -20,9 +20,15 @@ namespace Secao05_ConstrutoresThisSobrecargaEncapsulamento
 		 */
 
 		//this é uma referência
-		private string _nome;
-		private double _preco;
-		private int _quantidade;
+		public string _nome { get; set; }
+		public double _preco { get; set; }
+		public int _quantidade { get; set; }
+
+		//public string Nome
+		//{
+		//	get { return _nome; }
+		//	set { _nome = value; }
+		//}
 
 		public Produto() { }
 		public Produto(string nome, double preco, int quantidade) : this() //referenciar outro construtor em um construtor
