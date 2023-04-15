@@ -12,6 +12,14 @@ namespace Secao05 // Note: actual namespace depends on the project name.
 			Console.WriteLine("========== SEÇÃO 05 ==========");
 			Console.WriteLine("==============================");
 
+            //Sintaxe Alternativa para inicializar valores
+            Produto p2 = new Produto
+            {
+                Nome = "TV",
+                Preco = 900.0,
+                Quantidade = 0
+            };
+
 			Produto p;
 			
 
