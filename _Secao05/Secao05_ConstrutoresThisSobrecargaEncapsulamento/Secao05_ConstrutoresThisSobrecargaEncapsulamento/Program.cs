@@ -20,7 +20,7 @@ namespace Secao05 // Note: actual namespace depends on the project name.
             string nome = Console.ReadLine();
 
             Console.WriteLine("Digite o preço");
-            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            double preco = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture );
 
             Console.WriteLine("Digite a quantidade em estoque");
             int quantidade = int.Parse(Console.ReadLine());
