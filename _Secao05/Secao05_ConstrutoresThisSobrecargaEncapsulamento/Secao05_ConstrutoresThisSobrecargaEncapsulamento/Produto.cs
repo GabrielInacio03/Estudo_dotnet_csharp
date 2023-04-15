@@ -19,6 +19,11 @@ namespace Secao05_ConstrutoresThisSobrecargaEncapsulamento
 			Preco = preco;
 			Quantidade = quantidade;
 		}
+		public Produto(string nome, double preco)
+		{
+			Nome = nome;
+			Preco = preco;
+		}
 
 		public double ValorTotalEmEstoque()
 		{
