@@ -8,6 +8,19 @@ namespace Secao06_MemoriaArraysListas
 {
     public class Calculator
     {
+        //modificador out é similar ao ref, mas não exige que a variavel original seja iniciada
+        //int a;
+        //Calculator.Triple(10, out a);
+        //Console.WriteLine(a)
+        public static void Triple(int origin, out int result) { result = origin * 3; }
+        //ref o param x se torna uma referencia para a variavel original
+        //int a = 10;
+        //Calculator.Triple(ref a);
+        //Console.WriteLine(a)
+        public static void Triple(ref int x)
+        {
+            x = x * 3;
+        }
         //1 função apenas
         //chamada -> int result = Calculator.Sum(10,20,30,40);
         //modificador de parametro params, com isso n é necessario declarar a instancia new int[] na chamada
