@@ -33,6 +33,17 @@ namespace Secao06_MemoriaArraysListas // Note: actual namespace depends on the p
 			double? x2 = null;
 			double? y2 = x ?? 0.00; //se o valor de x não for nulo o y recebe o x, se não ele recebe o valor 0.00
 
+			//vetor
+			double[] vetorDouble = new double[3];
+			vetorDouble[0] = 1.72;
+			vetorDouble[1] = 1.56;
+			vetorDouble[2] = 1.80;
+
+            Console.WriteLine("Trabalhando com vetores");
+			for (int i = 0; i < vetorDouble.Length; i++)
+			{
+                Console.WriteLine(i + " - " + vetorDouble[i].ToString("F2"));
+            }
             Console.WriteLine(p);
         }
 	}
