@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Drawing;
+using System.Globalization;
 
 namespace Secao06_MemoriaArraysListas // Note: actual namespace depends on the project name.
 {
@@ -45,6 +46,26 @@ namespace Secao06_MemoriaArraysListas // Note: actual namespace depends on the p
                 Console.WriteLine(i + " - " + vetorDouble[i].ToString("F2"));
             }
             Console.WriteLine(p);
+
+
+            Console.WriteLine("======= Vetor parte 2 =======");
+			//tipo referencia o padrão é nulo
+			int n = int.Parse(Console.ReadLine());
+
+			Product[] products = new Product[n];
+			double? media = 0.00;
+			for (int i = 0; i < n; i++)
+			{
+                string name = Console.ReadLine();
+				double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+				products[i] = new Product { Name = name, Price = price };
+				media += products[i].Price;
+            }
+
+			media = media / products.Length;
+
+            Console.WriteLine("A média de preço dos produtos é de: R$"+ media);
         }
 	}
 }
