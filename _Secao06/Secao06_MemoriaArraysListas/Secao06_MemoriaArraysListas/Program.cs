@@ -66,6 +66,20 @@ namespace Secao06_MemoriaArraysListas // Note: actual namespace depends on the p
 			media = media / products.Length;
 
             Console.WriteLine("A média de preço dos produtos é de: R$"+ media);
+
+
+
+			/*
+			 * Boxing -> é o processo de conversão de um objetio tipo valor para um objeto tipo referência compativel
+			 
+			int x = 20;
+			Object obj = x; de stack vai para o apontamento heap memory
+			 
+			 */
+
+			/*
+			 Unboxing -> é o contrário do Boxing
+			 */
         }
 	}
 }
