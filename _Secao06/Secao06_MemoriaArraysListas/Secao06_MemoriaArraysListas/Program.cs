@@ -80,6 +80,30 @@ namespace Secao06_MemoriaArraysListas // Note: actual namespace depends on the p
 			/*
 			 Unboxing -> é o contrário do Boxing
 			 */
+
+
+			//foreach paara cada objeto contifo em vect, faça:
+			//string[] vect = new string[] { "Maria", "Bob", "João" };
+
+			//foreach (string v in vect)
+			//{
+			//	Console.WriteLine(v);
+			//}
+
+			List<string> list = new List<string>();
+			list.Add("Gabriel Inácio");
+			list.Add("Gabriel Ramos");
+			list.Add("Alex");
+			list.Add("Ana");
+			list.Add("Maria");
+
+			//insert a diferença para o add é q nele vc pode definir a posição
+			list.Insert(2, "Marco");
+
+			foreach (string item in list)
+			{
+                Console.WriteLine(item);
+            }
         }
 	}
 }
