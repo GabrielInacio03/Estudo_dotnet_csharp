@@ -40,32 +40,32 @@ namespace Secao06_MemoriaArraysListas // Note: actual namespace depends on the p
 			vetorDouble[1] = 1.56;
 			vetorDouble[2] = 1.80;
 
-            Console.WriteLine("Trabalhando com vetores");
-			for (int i = 0; i < vetorDouble.Length; i++)
-			{
-                Console.WriteLine(i + " - " + vetorDouble[i].ToString("F2"));
-            }
-            Console.WriteLine(p);
+   //         Console.WriteLine("Trabalhando com vetores");
+			//for (int i = 0; i < vetorDouble.Length; i++)
+			//{
+   //             Console.WriteLine(i + " - " + vetorDouble[i].ToString("F2"));
+   //         }
+   //         Console.WriteLine(p);
 
 
-            Console.WriteLine("======= Vetor parte 2 =======");
-			//tipo referencia o padrão é nulo
-			int n = int.Parse(Console.ReadLine());
+   //         Console.WriteLine("======= Vetor parte 2 =======");
+			////tipo referencia o padrão é nulo
+			//int n = int.Parse(Console.ReadLine());
 
-			Product[] products = new Product[n];
-			double? media = 0.00;
-			for (int i = 0; i < n; i++)
-			{
-                string name = Console.ReadLine();
-				double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+			//Product[] products = new Product[n];
+			//double? media = 0.00;
+			//for (int i = 0; i < n; i++)
+			//{
+   //             string name = Console.ReadLine();
+			//	double price = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
 
-				products[i] = new Product { Name = name, Price = price };
-				media += products[i].Price;
-            }
+			//	products[i] = new Product { Name = name, Price = price };
+			//	media += products[i].Price;
+   //         }
 
-			media = media / products.Length;
+			//media = media / products.Length;
 
-            Console.WriteLine("A média de preço dos produtos é de: R$"+ media);
+   //         Console.WriteLine("A média de preço dos produtos é de: R$"+ media);
 
 
 
@@ -104,6 +104,28 @@ namespace Secao06_MemoriaArraysListas // Note: actual namespace depends on the p
 			{
                 Console.WriteLine(item);
             }
+
+            Console.WriteLine("Tamanho da lista: "+ list.Count);
+
+			string s1 = list.Find(x => x[0] == 'A');
+			string s2 = list.FindLast(x => x[0] == 'A');
+
+            Console.WriteLine("First: "+ s1);
+            Console.WriteLine("Last: "+ s2);
+
+			//caso fosse o index seria
+			//FindIndex
+			//FindLastIndex
+
+			List<string> gabriels = list.FindAll(x => x.Contains("Gabriel"));
+            Console.WriteLine("Gabriels: "+ gabriels.Count);
+
+			list.Remove("Alex"); //se n encontrar ele n faz nada, nem da erro
+			list.RemoveAll(x => x[0] == 'M');
+			//removeAt => remove pela posição
+
+			//removeRange remove os elementos de uma faixa
+			list.RemoveRange(2, 2); //a partir da posição 2 eu quero remover dois elementos
         }
 	}
 }
