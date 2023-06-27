@@ -24,6 +24,11 @@
                     System.Console.WriteLine("é gemeos");
                     break;
             }
+
+
+            //ternário -> quando se deseja decidir um valor com base em uma condição
+
+            var ten = (2 > 4) ? "verdadeiro" : "falso";
         }
     }
 }
