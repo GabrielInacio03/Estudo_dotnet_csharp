@@ -29,6 +29,17 @@
             //ternário -> quando se deseja decidir um valor com base em uma condição
 
             var ten = (2 > 4) ? "verdadeiro" : "falso";
+
+            //funções básicas de string
+            string nomeCompleto = "Gabriel da Silva Inácio";
+
+            nomeCompleto = nomeCompleto.ToLower(); //letras minusculas
+            nomeCompleto = nomeCompleto.ToUpper(); //letras maiusculas
+            
+            int indice = nomeCompleto.IndexOf('G'); 
+
+            string sobrenome = nomeCompleto.Substring(6 + 1);
+            System.Console.WriteLine("sobrenome: "+ sobrenome);
         }
     }
 }
