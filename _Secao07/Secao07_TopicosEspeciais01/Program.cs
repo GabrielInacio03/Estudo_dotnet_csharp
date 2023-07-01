@@ -40,6 +40,10 @@
 
             string sobrenome = nomeCompleto.Substring(6 + 1);
             System.Console.WriteLine("sobrenome: "+ sobrenome);
+
+            //datetime. tickes -> nanosegundos
+            DateTime d1 = DateTime.Now;
+            System.Console.WriteLine(d1);
         }
     }
 }
