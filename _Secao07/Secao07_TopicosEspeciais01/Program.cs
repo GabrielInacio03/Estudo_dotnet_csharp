@@ -1,4 +1,8 @@
-﻿namespace Secao06_MemoriaArraysListas
+﻿using System.Globalization;
+using System.Text;
+using System;
+
+namespace Secao06_MemoriaArraysListas
 {
     class Program
     {
@@ -43,7 +47,13 @@
 
             //datetime. tickes -> nanosegundos
             DateTime d1 = DateTime.Now;
+            
             System.Console.WriteLine(d1);
+
+            //determinar formato
+            DateTime d2 = DateTime.ParseExact("2000-08-15", "yyyy-MM-dd", CultureInfo.InvariantCulture);
+
+            System.Console.WriteLine(d2);
         }
     }
 }
