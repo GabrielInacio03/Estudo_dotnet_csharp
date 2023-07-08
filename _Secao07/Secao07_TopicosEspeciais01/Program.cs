@@ -44,6 +44,8 @@ namespace Secao06_MemoriaArraysListas
 
             string sobrenome = nomeCompleto.Substring(6 + 1);
             System.Console.WriteLine("sobrenome: "+ sobrenome);
+            System.Console.WriteLine(------------);
+            System.Console.WriteLine("Datetime");
 
             //datetime. tickes -> nanosegundos
             DateTime d1 = DateTime.Now;
@@ -54,6 +56,15 @@ namespace Secao06_MemoriaArraysListas
             DateTime d2 = DateTime.ParseExact("2000-08-15", "yyyy-MM-dd", CultureInfo.InvariantCulture);
 
             System.Console.WriteLine(d2);
+
+
+            System.Console.WriteLine("--------------");
+            System.Console.WriteLine("TimeSpan");
+            //Um objeto timespan internamente armazena uma duração na forma de tcks(100 nanosegundos)
+
+            TimeSpan t1 = new TimeSpan(0, 1, 30);//hora,minuto e segundos
+            System.Console.WriteLine(t1);
+            System.Console.WriteLine(t1.Ticks);
         }
     }
 }
