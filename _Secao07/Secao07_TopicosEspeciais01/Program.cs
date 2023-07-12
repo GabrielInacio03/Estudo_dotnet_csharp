@@ -44,7 +44,7 @@ namespace Secao06_MemoriaArraysListas
 
             string sobrenome = nomeCompleto.Substring(6 + 1);
             System.Console.WriteLine("sobrenome: "+ sobrenome);
-            System.Console.WriteLine(------------);
+            System.Console.WriteLine("------------");
             System.Console.WriteLine("Datetime");
 
             //datetime. tickes -> nanosegundos
@@ -65,6 +65,29 @@ namespace Secao06_MemoriaArraysListas
             TimeSpan t1 = new TimeSpan(0, 1, 30);//hora,minuto e segundos
             System.Console.WriteLine(t1);
             System.Console.WriteLine(t1.Ticks);
+
+            System.Console.WriteLine("--------------");
+            DateTime dbase = new DateTime(2023, 07, 12, 11, 30, 58, 275);
+
+            System.Console.WriteLine(dbase);
+            System.Console.WriteLine("1) Date: "+ dbase.Date);
+            System.Console.WriteLine("2) Day: "+ dbase.Day);
+            System.Console.WriteLine("3) DayOfWeek: "+ dbase.DayOfWeek);
+            System.Console.WriteLine("4) DayOfYear: "+ dbase.DayOfYear);
+            System.Console.WriteLine("5) Hour: "+ dbase.Hour);
+            System.Console.WriteLine("6) Kind: "+ dbase.Kind);
+            System.Console.WriteLine("7) Millsecond: "+ dbase.Millisecond);
+            System.Console.WriteLine("8) Minute: "+ dbase.Minute);
+            System.Console.WriteLine("9) Month: "+ dbase.Month);
+            System.Console.WriteLine("10) Second: "+ dbase.Second);
+            System.Console.WriteLine("11) Ticks: "+ dbase.Ticks);
+            System.Console.WriteLine("12) TimeOfDay: "+ dbase.TimeOfDay);
+            System.Console.WriteLine("13) Year: "+ dbase.Year);
+
+            System.Console.WriteLine(dbase.ToString("yyyy-MM-dd"));
+
+            string s1 = dbase.ToLongDateString();
+            System.Console.WriteLine(s1);
         }
     }
 }
