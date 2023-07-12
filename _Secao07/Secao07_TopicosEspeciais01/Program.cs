@@ -88,6 +88,10 @@ namespace Secao06_MemoriaArraysListas
 
             string s1 = dbase.ToLongDateString();
             System.Console.WriteLine(s1);
+
+            System.Console.WriteLine("--------------");
+            //System.Console.WriteLine(dbase.ToLocalTime());
+            //ISO 8601 -> yyyy-MM-ddTHH:mm:ssZ
         }
     }
 }
