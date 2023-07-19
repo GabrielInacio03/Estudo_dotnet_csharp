@@ -1,0 +1,113 @@
+=================================================
+NIVELAMENTO GIT E GITHUB
+=================================================
+
+configurando sua identificação:
+
+git config --global user.name "Seu nome"
+git config --global user.email "Seu Email cadastrado no github"
+
+git config --list
+
+
+
+
+------
+salvando versão:
+
+git add . //envia os arquivos para o stage
+git commit -m "primeiro commit" //salva as alterações
+git push //envia para o repositorio remoto
+
+------
+
+entrando na branch ou no commit:
+
+git checkout Nomebranch ou CodigoCommit
+git checkout HEAD~1 //voltando pro penultimo commit
+
+não modificar, caso tenha modificado faça:
+
+git reset 
+git clean -df
+git checkout -- .
+
+------
+
+.gitignore -> indica o que não deve ser salvo pelo git.
+
+------
+
+Removendo arquivos da área stage:
+
+git status
+git reset
+
+------
+
+desfazendo modificações não salvas
+:
+git status
+git reset
+git clean  -df
+git checkout -- .
+
+------
+
+O que fazer quando abre o editor VIM (linux):
+
+tecla i
+escrever mensagem
+esc
+:wq sair salvando ou :q! sair sem salvar
+
+------
+
+desfazer ultimo commit:
+
+git status
+git reset --soft HEAD~1
+
+------
+
+deletar commits e tambem modificações nos arquivos
+
+1_voltando projeto ao estado de um determinado commit
+   git reset --hard <codigo do commit>
+2_voltando o projeto ao estado do penultimo commit
+   git reset --hard HEAD~1
+
+------
+
+atualizar repositorio local:
+
+git pull
+
+------
+
+Resolver push rejeitado:
+
+git pull
+git push
+
+------
+
+conflito no pull:
+
+o HEAD é o que ta no seu repositorio local, tendo q corrigir na mão
+
+------
+
+como sobreescrever um historico no github
+
+git push -f <nome do remote> <nome da branch>
+
+------
+
+apontar projeto para outro repositorio remoto:
+
+git remote set-url origin git@github.com:seuusuario/seurepositorio.git
+
+------
+
+------
