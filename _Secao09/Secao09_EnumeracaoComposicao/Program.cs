@@ -17,6 +17,11 @@ namespace Secao09_EnumeracaoComposicao
                 
                 O enum é um tipo valor
             */   
+            /*
+                Composição: É um tipo de associação que permite que um objeto contenha outro. Exemplo
+
+                Order e OrderItem: é uma relação de composição entre os objetos
+            */
 
             Order order = new Order
                 {
