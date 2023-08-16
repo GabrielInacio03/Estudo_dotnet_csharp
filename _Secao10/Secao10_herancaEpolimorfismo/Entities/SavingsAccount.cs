@@ -18,5 +18,9 @@ namespace Secao10_herancaEpolimorfismo.Entities
         {
             this.Balance = this.Balance * this.interestRate;
         }
+        public override void Withdraw(double amount)
+        {
+            this.Balance -= amount;
+        }
     }
 }

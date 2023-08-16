@@ -20,9 +20,10 @@ namespace Secao10_herancaEpolimorfismo.Entities
         }
 
         //Withdraw == saque, amount == quantia
-        public void Withdraw(double amount)
+        //virtual -> indica que o metodo pode ser sobreescrito
+        public virtual void Withdraw(double amount)
         {
-            this.Balance -= amount;
+            this.Balance -= amount + 5.0;
         }
         //deposito
         public void Deposit(double amount)
