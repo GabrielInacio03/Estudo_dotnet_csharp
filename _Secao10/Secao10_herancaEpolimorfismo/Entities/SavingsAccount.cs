@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace Secao10_herancaEpolimorfismo.Entities
 {
-    public class SavingsAccount : Account
+    //seaked -> selada, evita que a classe possa ser herdada
+    public sealed class SavingsAccount : Account
     {
         public double interestRate { get; set; } //taxa de juros
 

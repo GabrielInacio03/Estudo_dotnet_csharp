@@ -7,6 +7,7 @@ namespace Secao10_herancaEpolimorfismo // Note: actual namespace depends on the 
     {
         static void Main(string[] args)
         {
+            /*
             Account acc1 = new Account(1001,"Alex", 500.0);
             Account acc2 = new SavingsAccount(1002, "Anna", 500.0);
 
@@ -15,6 +16,7 @@ namespace Secao10_herancaEpolimorfismo // Note: actual namespace depends on the 
 
 			global::System.Console.WriteLine(acc1.Balance);
             global::System.Console.WriteLine(acc2.Balance);
+            */
             /*Herança e Polimorfismo*/
             /*
                 Herança: É um tipo de associação que permite que uma classe herde dados e comportamentos de outra. A vantagem é o reuso e polimorfismo. Sintaxe: : e base (referenciar a superclasse)
