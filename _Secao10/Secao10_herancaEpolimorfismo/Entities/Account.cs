@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace Secao10_herancaEpolimorfismo.Entities
 {
-    public class Account
+    public abstract class Account
     {
         public int Number { get; protected set; }
         public string Holder { get; protected set; } //titular
