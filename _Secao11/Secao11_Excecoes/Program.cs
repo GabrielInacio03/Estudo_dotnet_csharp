@@ -1,26 +1,30 @@
 ﻿using System;
+using System.IO;
 
 namespace Secao11_Excecoes // Note: actual namespace depends on the project name.
 {
     internal class Program
     {
         static void Main(string[] args)
-        {
+        {                
+            FileStream fs = null;
             try
             {
-                int n1 = 20;
-                int n2 = 0;
-
-                int result = n1 / n2;
-                System.Console.WriteLine($"Resultado: {result}");
+                fs = new FileStream(@"C:\temp\data.txt", FileMode.Open);
+                StreamReader sr = new StreamReader(fs);
+                string line = sr.ReadLine();
+                System.Console.WriteLine(line);
             }
-            catch (DivideByZeroException)
+            catch(Exception e)
             {
-                System.Console.WriteLine("Erro DevideByZeroException");
+                System.Console.WriteLine($"Erro File: {e.Message}");
             }
-            catch(FormatException e)
+            finally
             {
-                System.Console.WriteLine($"FormatException: {e.Message}");
+                if(fs != null)
+                {
+                    fs.Close();
+                }
             }
         }
     }
