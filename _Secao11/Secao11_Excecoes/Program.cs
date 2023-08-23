@@ -30,7 +30,15 @@ namespace Secao11_Excecoes // Note: actual namespace depends on the project name
                 System.Console.WriteLine("Check-out date (dd/MM/yyyy): ");
                 checkOut = DateTime.Parse(Console.ReadLine());
 
-                reservation.UpdateReservation(checkIn, checkOut);
+                string error = reservation.UpdateReservation(checkIn, checkOut);
+
+                if(error != null)
+                {
+                    System.Console.WriteLine($"Error: {error}");
+                }else
+                {
+                    System.Console.WriteLine($"Reservation: {reservation}");
+                }
             }
             
         }
