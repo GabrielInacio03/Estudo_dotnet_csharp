@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Secao11_Excecoes.Exception;
 
 namespace Secao11_Excecoes.Entities
 {
@@ -14,6 +15,10 @@ namespace Secao11_Excecoes.Entities
       public Reservation(){}
       public Reservation(int roomNumber, DateTime checkIn, DateTime checkOut)
       {
+         if(checkOut <= checkIn)
+         {
+            throw new DomainException( "Error in reservation: Reservation FAIL Dates checkOut <= checkIn");
+         }
          this.RoomNumber = roomNumber;
          this.CheckIn = checkIn;
          this.CheckOut = checkOut;
@@ -23,21 +28,20 @@ namespace Secao11_Excecoes.Entities
          TimeSpan duration = CheckOut.Subtract(CheckIn); //diferença entre as datas
          return (int)duration.TotalDays;
       }
-      public string UpdateReservation(DateTime checkIn, DateTime checkOut)
+      public void UpdateReservation(DateTime checkIn, DateTime checkOut)
       {
          DateTime now = DateTime.Now;
          if(checkIn < now || checkOut < now)
          {
-            return "Error in reservation: Reservation FAIL Dates";
+            throw new DomainException("Error in reservation: Reservation FAIL Dates");
          }else if(checkOut <= checkIn)
          {
-            return "Error in reservation: Reservation FAIL Dates checkOut <= checkIn";
+            throw new DomainException( "Error in reservation: Reservation FAIL Dates checkOut <= checkIn");
          }
 
          this.CheckIn = checkIn;
          this.CheckOut = checkOut;
 
-         return null;
       }
       public override string ToString()
       {
