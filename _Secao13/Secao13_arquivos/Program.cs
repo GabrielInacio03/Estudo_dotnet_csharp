@@ -17,20 +17,32 @@ namespace Secao13_arquivos // Note: actual namespace depends on the project name
             string sourcePath = @"C:\workspace\Estudo_dotnet_csharp\_Secao13\Secao13_arquivos\arquivos\file1.txt";
             string targetPath = @"C:\workspace\Estudo_dotnet_csharp\_Secao13\Secao13_arquivos\arquivos\file2.txt";
 
+
+            //FileStream fs = null;
+            StreamReader sr = null;
             try
             {
-                FileInfo fileInfo = new FileInfo(sourcePath);
-                fileInfo.CopyTo(targetPath);
-                string[] lines = File.ReadAllLines(sourcePath);
-                foreach(string line in lines)
+                //recurso externo
+                //fs = new FileStream(sourcePath,FileMode.Open);   
+                sr = File.OpenText(sourcePath);//new StreamReader(fs);
+                
+                while(!sr.EndOfStream)
                 {
-                    System.Console.WriteLine("Line: "+ line);
+                    string line = sr.ReadLine();
+                    System.Console.WriteLine("line: "+ line);
                 }
+                
+               
             }
             catch(IOException e)
             {
                 System.Console.WriteLine("An error occurred");
                 System.Console.WriteLine(e.Message);
+            }
+            finally
+            {
+                if(sr != null) sr.Close();
+                //if(fs != null) fs.Close();
             }
         }
     }
