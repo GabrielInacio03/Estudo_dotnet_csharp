@@ -18,17 +18,16 @@ namespace Secao13_arquivos // Note: actual namespace depends on the project name
             string targetPath = @"C:\workspace\Estudo_dotnet_csharp\_Secao13\Secao13_arquivos\arquivos\file2.txt";
             
             try
-            {
-                
-                using (StreamReader sr = File.OpenText(sourcePath))
+            {                               
+                string[] lines = File.ReadAllLines(sourcePath);
+
+                using(StreamWriter sw = File.AppendText(targetPath))
                 {
-                    while(!sr.EndOfStream)
+                    foreach (var line in lines)
                     {
-                        string line = sr.ReadLine();
-                        System.Console.WriteLine(line);
+                        sw.WriteLine(line.ToUpper());
                     }
                 }
-                
             }
             catch (IOException e)
             {
