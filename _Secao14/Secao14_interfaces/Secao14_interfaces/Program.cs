@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using Secao14_interfaces.Entities;
+using Secao14_interfaces.Services;
 
 namespace Secao14_interfaces // Note: actual namespace depends on the project name.
 {
@@ -18,7 +19,22 @@ namespace Secao14_interfaces // Note: actual namespace depends on the project na
             Console.WriteLine("Return: (dd/M/yyyy hh:mm): ");
             DateTime finish = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy HH:mm", CultureInfo.InvariantCulture);
 
+            Console.WriteLine("Enter price per hours: ");
+            double perHour = double.Parse(Console.ReadLine());
+
+            Console.WriteLine("Enter price per day: ");
+            double perDay = double.Parse(Console.ReadLine());
+
             CarRental carRental = new CarRental(start, finish, new Vehicle(model));
+            RentalService rentalService = new RentalService(perHour, perDay);
+            
+            rentalService.ProcessInvoice(carRental);
+            
+            Console.WriteLine("INVOICE: ");
+            Console.WriteLine("Basic payment: "+ carRental.Invoice.BasicPayment);
+            Console.WriteLine( "Tax: "+ carRental.Invoice.Tax);
+            Console.WriteLine("Total payment: "+ carRental.Invoice.TotalPayment);
+
         }
     }
 }
