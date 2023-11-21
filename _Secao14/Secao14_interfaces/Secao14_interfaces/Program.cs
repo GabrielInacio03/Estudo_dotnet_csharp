@@ -26,7 +26,7 @@ namespace Secao14_interfaces // Note: actual namespace depends on the project na
             double perDay = double.Parse(Console.ReadLine());
 
             CarRental carRental = new CarRental(start, finish, new Vehicle(model));
-            RentalService rentalService = new RentalService(perHour, perDay);
+            RentalService rentalService = new RentalService(perHour, perDay, new BrazilTaxService());
             
             rentalService.ProcessInvoice(carRental);
             
