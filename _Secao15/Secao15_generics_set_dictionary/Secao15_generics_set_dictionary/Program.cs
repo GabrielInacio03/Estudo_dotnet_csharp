@@ -7,18 +7,37 @@ namespace Secao15_generics_set_dictionary // Note: actual namespace depends on t
     {
         static void Main(string[] args)
         {
-            PrintService<int> printService = new PrintService<int>();
+            //SortedSet mantem os elementos ordenados
+           SortedSet<int> a = new SortedSet<int>()
+           {
+               0,2,4,5,6,8,10
+           };
+           SortedSet<int> set = new SortedSet<int>()
+           {
+               5,6,7,8,9,10
+           };
+            //union
+            SortedSet<int> c = new SortedSet<int>(a);
+            c.UnionWith(set);
 
-            Console.WriteLine("How many values ?");
-            int n = int.Parse(Console.ReadLine());
+            PrintCollection(c);
 
-            for (int i = 0; i < n; i++)
+            //intersection
+            SortedSet<int> d = new SortedSet<int>(a);
+            d.IntersectWith(set); //elementos q existem nos dois conjuntos
+
+            //difference
+            SortedSet<int> e = new SortedSet<int>(a);
+            e.ExceptWith(set); //elementos de A excluido aqueles elementos de B
+        }
+
+        static void PrintCollection<T>(IEnumerable<T> collection)
+        {
+            foreach (T item in collection)
             {
-                int x = int.Parse(Console.ReadLine());
-                printService.AddValue(x);
+                Console.Write(item + " ");
             }
-
-            printService.Print();
+            Console.WriteLine();
         }
     }
 }
