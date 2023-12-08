@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using lambdaDelegatesLinq.Entities;
 using lambdaDelegatesLinq.Services;
 
 namespace lambdaDelegatesLinq // Note: actual namespace depends on the project name.
@@ -9,13 +10,20 @@ namespace lambdaDelegatesLinq // Note: actual namespace depends on the project n
     {
         static void Main(string[] args)
         {
-            double a = 10;
-            double b = 12;
+            List<Product> list = new List<Product>();
 
-            BinaryNumericOperation op = CalculationService.ShowSum;
-            op += CalculationService.ShowMax;
-            op.Invoke(a,b);
-            
+            list.Add(new Product("TV", 900.00));
+            list.Add(new Product("Mouse", 50.00));
+            list.Add(new Product("Tablet", 350.90));
+            list.Add(new Product("HD Case", 80.90));
+
+            //list.RemoveAll(p => p.price >= 100.00);
+            //o Predicate é um delegate, ou seja, uma referencia para uma função
+            list.RemoveAll(ProductTest);
+        }
+        public static bool ProductTest(Product p)
+        {
+            return p.price >= 100;
         }
     }
 }
