@@ -19,7 +19,18 @@ namespace lambdaDelegatesLinq // Note: actual namespace depends on the project n
 
             //list.RemoveAll(p => p.price >= 100.00);
             //o Predicate é um delegate, ou seja, uma referencia para uma função
-            list.RemoveAll(ProductTest);
+            //list.RemoveAll(ProductTest);
+
+            //recebe product e retorna string
+            //Func<Product, string> func = NameUpper;
+
+            //lambda
+            Func<Product, string> func = p => p.Name.ToUpper();
+            List<string> result = list.Select(func).ToList();
+        }
+        static string NameUpper(Product p)
+        {
+            return p.Name.ToUpper();
         }
         public static bool ProductTest(Product p)
         {
